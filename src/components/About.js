@@ -4,7 +4,7 @@ import NavBar from './NavBar.js';
 class About extends Component {
     render() {
       return (
-        <div classname="about">
+        <div className="about">
          <h2>About</h2>
         <NavBar />
         </div>    

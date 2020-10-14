@@ -4,7 +4,7 @@ import About from './About.js';
 import Projects from './Projects.js';
 import Contact from './Contact.js';
 import Outro from './Outro.js';
-import NavBar from './NavBar.js';
+//import NavBar from './NavBar.js';
 
 
 
