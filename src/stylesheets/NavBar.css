@@ -1,0 +1,17 @@
+
+ .container {
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+nav .container li {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    color: cornsilk;
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+    list-style-type: none;
+}
