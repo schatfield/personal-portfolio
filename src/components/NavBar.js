@@ -1,13 +1,26 @@
-import React, { Component } from 'react';
 
+import React, { Component } from 'react';
+import { Link, Router, withRouter } from "react-router-dom";
+import '../stylesheets/NavBar.css'
 class NavBar extends Component {
     render() {
       return (
-        <div classname="NavBar">
-          <h2>NavBar</h2>
-          </div>
+      
+        <header>
+          <nav> 
+            <div className="nav-bar">
+              <ul className="container">
+                <li><Link className="nav-link" to="/"></Link></li> 
+                <li><Link className="nav-link" to="/">/ ABOUT /</Link></li>
+                <li><Link className="nav-link" to="/">/ PROJECTS /</Link></li>
+                <li><Link className="nav-link" to="/">/ CONTACT /</Link></li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+     
       );
     }
   }
 
-  export default NavBar;
+  export default withRouter(NavBar)

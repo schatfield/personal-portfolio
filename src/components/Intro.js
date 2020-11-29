@@ -4,7 +4,7 @@ import NavBar from './NavBar.js';
 class Intro extends Component {
     render() {
       return (
-        <div classname="intro">
+        <div className="intro">
           <h2>Intro yay!</h2>
           <NavBar />
           </div>
