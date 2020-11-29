@@ -12,13 +12,12 @@ class Portfolio extends Component {
     render() {
         return (
         <div className="Portfolio">
-            <h2>Hi, I am a Portfolio!</h2>
+            <h2>FULL-STACK WEB DEVELOPMENT</h2>
             <Intro />
             <About />
             <Projects />
             <Contact />
             <Outro />
-
         </div>
       );
     }

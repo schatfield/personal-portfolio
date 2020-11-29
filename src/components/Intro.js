@@ -5,7 +5,7 @@ class Intro extends Component {
     render() {
       return (
         <div className="intro">
-          <h2>Intro yay!</h2>
+          <h2>Intro Image</h2>
           <NavBar />
           </div>
       );
