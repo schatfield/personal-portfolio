@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-//import NavBar from './NavBar.js';
-
+import "../stylesheets/Outro.css";
 class Outro extends Component {
     render() {
       return (

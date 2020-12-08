@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar.js';
+import '../stylesheets/Projects.css';
 class Projects extends Component {
     render() {
       return (

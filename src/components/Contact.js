@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
+import "../stylesheets/Contact.css";
 
 class Contact extends Component {
     render() {
@@ -11,9 +12,9 @@ class Contact extends Component {
 
 I am available for freelance projects and full-time employment.
 
-Melanie Daveid
-UX Design & Art Direction
-hello@melaniedaveid.com
+Shawna Chatfield
+Fullstack Web Development
+chatfield.shc@gmail.com
 </p>
         </div>
       );
