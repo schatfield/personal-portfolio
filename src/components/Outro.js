@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-//import NavBar from './NavBar.js';
-
+import "../stylesheets/Outro.css";
 class Outro extends Component {
     render() {
       return (
           <div className= "outro">
-        <h2>Outro</h2>
+        <h2>Outro Image</h2>
         </div>
       );
     }
