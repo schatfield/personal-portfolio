@@ -10,15 +10,15 @@ import NavBar from './NavBar.js';
 
 class Portfolio extends React.Component {
 
-    constructor(props) {
-      super(props);
-      this.intro = React.createRef();
-      this.about = React.createRef();
-      this.contact = React.createRef();
-      this.projects = React.createRef();
-      this.scrollToContent = this.scrollToContent.bind(this);
-    }
+
+
+      intro = React.createRef();
+      about = React.createRef();
+      contact = React.createRef();
+      projects = React.createRef();
+
     scrollToContent(content) {
+      console.log(content);
       switch(content) {
         case 1:
           this.intro.current.scrollIntoView({behavior: 'smooth'});
@@ -36,8 +36,8 @@ class Portfolio extends React.Component {
     render() {
       return (
         <main>
-          <Menu goTo={this.scrollToContent} />
-          <div className='main'>
+          <NavBar scrollToContent={this.scrollToContent} />
+          <div className='main' >
             <Intro ref={this.intro} />
             <About ref={this.about} />
             <Projects ref={this.projects} />
@@ -46,16 +46,16 @@ class Portfolio extends React.Component {
         </main>
       );
     }
-  }
   
-    render() {
-        return (
-        <div className="Portfolio">
-            <h2>FULL-STACK WEB DEVELOPMENT</h2>
-            <Navbar />
-        </div>
-      );
-    }
+  
+    // render() {
+    //     return (
+    //     <div className="Portfolio">
+    //         <h2>FULL-STACK WEB DEVELOPMENT</h2>
+    //         <Navbar />
+    //     </div>
+    //   );
+    // }
   }
 
   export default Portfolio;
