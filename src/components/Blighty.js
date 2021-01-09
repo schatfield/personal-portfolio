@@ -1,10 +1,9 @@
-import React from 'react';
 import React, { Component } from 'react';
 
 
-class Blighty extends React.Component{
+class Blighty extends Component{
     render() {
-        return <p>Personal Portfolio</p>
+        return <p>BLIGHTY</p>
     } 
 }
 

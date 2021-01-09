@@ -2,7 +2,7 @@ import React from 'react';
 
 class Broomsticks extends React.Component{
     render() {
-        return <p>Broom Project</p>
+        return <p>BROOMSTICKS</p>
     } 
 }
 

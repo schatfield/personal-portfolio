@@ -25,7 +25,7 @@ class Projects extends Component {
           {/* ProjectDisplay right side - this is where if statement logic will go and project component import statements*/}
           <ProjectMenu updateProjectToDisplay={this.updateProjectToDisplay}/>
           {/* currentProject={this.state.currentProject}- this is grabbing the value that we have contained in state from the click that happened on ProjectMenu*/}
-          <ProjectDisplay currentProject={this.state.currentProject} />
+          <ProjectDisplay currentProject={this.state.currentProject} testProp="Shawna"/>
         </div>
       </div>
     );
